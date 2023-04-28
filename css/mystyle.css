@@ -1,0 +1,45 @@
+.button {
+    background-color: #4CAF50; /* Změňte barvu na požadovanou */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 30px; /* Zakulacení tlačítka */
+  }
+  
+  .button:hover {
+    transform: scale(1.1); /* Zvětšení tlačítka při nájezdu myší */
+  }
+  
+  #obal {
+    /* Maxim�ln� ���ka 960 px */max-width: 960px;
+    /* Nastav okraje tak, aby byl blok obal na str�nce vycentrov�n */margin: 0px auto;
+    /* Ohrani�en� - pln� �ed� ��ra o tlou��ce 1 pixel  */border: solid 1px rgb(102, 102, 102);
+    /* Vnit�n� odsazen� - 20 pixel� */padding: 20px;
+    /* B�l� barva pozad� */background-color: white;
+    /* Barva textu - tmav� �ed� odst�n, �estn�ctkov� hodnoty 3 */color: #333;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    /* Typ p�sma bude Arial nebo sans-serif */
+    background-color: rgb(173, 173, 173)
+    /* Barva pozad� bude sv�tle �ed� */
+  } 
+  h1 {
+    /* Nadpis bude vycentrov�n */text-align: center;
+    /* Velikost nadpisu bude dvojn�sobn� vzhledem k z�kladn� velikosti p�sma */font-size: 200%;
+    /* Nadpis bude tu�n� */font-weight: bold;
+    /* Barva nadpisu bude toto�n� s barvou zv�razn�n�ho odkazu */color: rgb(70, 91, 99);
+    /* Nadpis bude vyps�n velk�mi p�smeny */text-transform: uppercase;
+    /* V��ka ��dku nadpisu bude 2em */  line-height: 2em;
+  }
+  img {
+    display: block; /* zajistí, aby obrázek byl blokovým elementem */
+    margin: 0 auto; /* nastaví okraje tak, aby se obrázek vycentroval na šířku */
+  }
